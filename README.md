@@ -9,10 +9,10 @@ MATLAB implementation of the paper:
 
 ## Citation:
 ```
-@InProceedings{pmlr-v97-mercado19a,
+@article{mercadoNeurIPS2019,
   title = 	 {Generalized Matrix Means for Semi-Supervised Learning with Multilayer Graphs},
   author = 	 {Mercado, Pedro and Tudisco, Francesco and Hein, Matthias},
-  booktitle = 	 {NeurIPS},
+  conference = 	 {NeurIPS},
   year = 	 {2019},
 }
 
