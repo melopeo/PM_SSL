@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for ((i = 1; i <= 1; i++)); do
+    nohup matlab -nodesktop -nodisplay -r 'run_everything' >> run_everything.out 2>&1 &    echo "First thing's first..."
+    sleep 5
+    echo "We just waited 5 seconds"
+done
