@@ -12,7 +12,7 @@ MATLAB implementation of the paper:
 ## Usage:
 Let `Wcell` be a cell with the adjacency matrices of each layer , `p` the power of the power mean Laplacian, `y` an array with the class of labeled nodes (zero denotes node is unlabeled). Classes through the power mean Laplacian `L_p` regularizer are computed via
 ```
-y_hat           = SSL_multilayer_graphs_with_power_mean_laplacian(Wcell, p, y);
+y_hat = SSL_multilayer_graphs_with_power_mean_laplacian(Wcell, p, y);
 ```
 
 ## Quick Overview:
