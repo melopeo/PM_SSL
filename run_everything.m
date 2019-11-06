@@ -10,6 +10,6 @@ multilayer_V1_PM_CMN            % runs Experiments of  plots of Fig 2c
 
 ThreeLayer_PM                   % runs Experiments of  plots of Fig 4
 
-realworld_experiments           % runs Experiments o  Section 6 (real world datasets)
+realworld_experiments           % runs Experiments of Section 6 (real world datasets)
 
 
