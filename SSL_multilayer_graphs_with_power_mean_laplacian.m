@@ -1,5 +1,5 @@
 function f = SSL_multilayer_graphs_with_power_mean_laplacian(W_cell, p, labels_vec, diagShift, lambda, loss_str)
-% C = SSL_multilayer_graphs_with_power_mean_laplacian(W_cell, p, diagShift, lambda, post_processing_str)
+% C = SSL_multilayer_graphs_with_power_mean_laplacian(W_cell, p, labels_vec, diagShift, lambda, post_processing_str)
 % INPUT: W_cell (cell)              : cell containing adjacency matrices
 %        p (scalar)                 : p-th power of generalized matrix mean
 %        labels_vec (array)         : array with node labels (zero entries for unlabelled nodes)

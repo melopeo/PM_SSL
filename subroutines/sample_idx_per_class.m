@@ -10,17 +10,23 @@ if nargin < 3
     style_str = 'original';
 end
 
-if isscalar(sizeOfLabelSample)
-    classes_idx       = unique(GroundTruth);
-    classes_num       = length(classes_idx);
-    sizeOfLabelSample = sizeOfLabelSample*ones(classes_num,1);
-end
+% if isscalar(sizeOfLabelSample)
+%     classes_idx       = unique(GroundTruth);
+%     classes_num       = length(classes_idx);
+%     sizeOfLabelSample = sizeOfLabelSample*ones(classes_num,1);
+% end
 
 % start
 classes_idx = unique(GroundTruth);
 classes_num = length(classes_idx);
 
 if strcmp(style_str, 'original')
+    
+    if isscalar(sizeOfLabelSample)
+        classes_idx       = unique(GroundTruth);
+        classes_num       = length(classes_idx);
+        sizeOfLabelSample = sizeOfLabelSample*ones(classes_num,1);
+    end
   
     for i = 1:classes_num
         label_i           = classes_idx(i);
