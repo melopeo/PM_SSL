@@ -7,9 +7,10 @@ MATLAB implementation of the paper:
 ## Content:
 - `example.m` : contains an easy example showing how to use the code
 
+- `realworld_experiments.m` : runs experiments on real datasets contained in our [paper (Section 6)](https://github.com/melopeo/PM_SSL/blob/master/PaperAndPoster/paper_Short.pdf)
+
 - `run_everything.m` : runs experiments contained in our [paper](https://github.com/melopeo/PM_SSL/blob/master/PaperAndPoster/paper_Short.pdf)
 
-- `realworld_experiments.m` : runs experiments on real datasets contained in our [paper (Section 6)](https://github.com/melopeo/PM_SSL/blob/master/PaperAndPoster/paper_Short.pdf)
  
 ## Usage:
 Let `Wcell` be a cell with the adjacency matrices of each layer , `p` the power of the power mean Laplacian, `y` an array with the class of labeled nodes (zero denotes node is unlabeled). Classes through the power mean Laplacian `L_p` regularizer are computed via
